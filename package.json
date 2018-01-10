@@ -1,0 +1,23 @@
+{
+  "name": "theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap-reboot": "^0.1.1",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2"
+  },
+  "scripts": {
+    "postinstall": "gulp copy-assets"
+  },
+  "author": "Timothy Fisher",
+  "license": "MIT"
+}
